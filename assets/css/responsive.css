@@ -1,0 +1,135 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .about-img {
+        bottom: 70px;
+    }
+    .contact-img {
+        bottom: 165px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider-content {
+        padding: 230px 0;
+    }
+    .about-content {
+        margin-left: 0px;
+        padding-bottom: 0;
+    }
+    .skill-content-wrapper {
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .skill-img {
+        top: 70px;
+    }
+    .contact-img {
+        bottom: 180px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .mean-container .mean-nav {
+        position: absolute;
+    }
+    .single-slider.bg-overlay::after,
+    .single-slider {
+        border-radius: 0 0 90px 90px;
+    }
+    .slider-content {
+        padding: 190px 0;
+    }
+    .about-content {
+        margin-left: 0px;
+        padding: 0;
+    }
+    .skill-content-wrapper {
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .contact-wrapper {
+        text-align: center;
+    }
+    .contact-wrapper h2,
+    .contact-wrapper p {
+        padding: 0 60px;
+    }
+    .single-testimonial {
+        padding-right: 20px;
+    }
+    
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .mean-container .mean-nav {
+        position: absolute;
+    }
+    .single-slider.bg-overlay::after,
+    .single-slider {
+        border-radius: 0 0 50px 50px;
+    }
+    .slider-content {
+        padding: 150px 0;
+    }
+    .slider-content h1 {
+        font-size: 50px;
+    }
+    .about-content {
+        margin-left: 0px;
+        padding: 0;
+    }
+    .skill-content-wrapper {
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .contact-wrapper {
+        text-align: center;
+    }
+    .contact-wrapper h2,
+    .contact-wrapper p {
+        padding: 0 20px;
+    }
+    .single-team:hover .team-social-links {
+        height: 55px;
+    }
+    .single-testimonial {
+        padding-right: 0;
+    }
+    .footer-menu ul li a {
+        padding: 20px 8px;
+    }
+    .footer-social-links {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .footer-social-links ul li a {
+        padding: 0 7px;
+        margin: 0;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .team-img {
+        max-width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width:450px;
+    }
+    .contact-wrapper h2,
+    .contact-wrapper p {
+        padding: 0 50px;
+    }
+}
